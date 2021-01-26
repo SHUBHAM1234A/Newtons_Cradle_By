@@ -65,9 +65,9 @@ function draw() {
   strokeWeight(2); 
   fill("yellow");
   text("Press UP arrow to swing 1 bob",2,20);
-  text("Press LEFT arrow to swing 2 bob",2,60);
-  text("Press RIGHT arrow to swing 3 bob",2,100);
-  text("Press DOWN arrow to swing 4 bob",2,140);
+  text("Press LEFT arrow to swing 2 bobs",2,60);
+  text("Press RIGHT arrow to swing 3 bobs",2,100);
+  text("Press DOWN arrow to swing 4 bobs",2,140);
 }
 
 function keyPressed() {
