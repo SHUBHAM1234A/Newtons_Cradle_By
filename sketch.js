@@ -29,11 +29,11 @@ function setup() {
 	bob4 = new bob(a-25,a,b);
 	bob5 = new bob(a+25,a,b);
 
-	rope2 = new rope(bob2.body,roof.body,-40*1, 0)
-	rope1 = new rope(bob1.body,roof.body,-40*2, 0)
+	rope2 = new rope(bob2.body,roof.body,-b*1, 0)
+	rope1 = new rope(bob1.body,roof.body,-b*2, 0)
 	rope3 = new rope(bob3.body,roof.body,-0, 0)
-	rope4 = new rope(bob4.body,roof.body,40*1, 0)
-	rope5 = new rope(bob5.body,roof.body,40*2, 0)
+	rope4 = new rope(bob4.body,roof.body,b*1, 0)
+	rope5 = new rope(bob5.body,roof.body,b*2, 0)
 
 	board = createSprite(25,70,330,150);
 	board.shapeColor = "white"
